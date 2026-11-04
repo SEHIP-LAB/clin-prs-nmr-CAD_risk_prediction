@@ -1,0 +1,29 @@
+[project]
+name = "cad-prs-nmr"
+version = "0.1.0.dev0"
+description = "UK Biobank CAD risk prediction with clinical predictors, PRS and NMR metabolomics"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "adjustText",
+  "cloudpickle",
+  "dcurves",
+  "ipykernel",
+  "ipython",
+  "joblib",
+  "jupyterlab",
+  "lifelines",
+  "matplotlib",
+  "nbformat",
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "scikit-survival",
+  "scipy",
+  "threadpoolctl",
+  "torch",
+  "xgboost"
+]
+
+[tool.uv]
+package = false
